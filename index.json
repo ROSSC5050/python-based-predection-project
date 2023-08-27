@@ -1,0 +1,39 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {"tag": "add_portfolio",
+    "patterns": ["Add a stock to my portfolio","Add a stock","Add a stock to my List"],
+    "responses": ["adding stock"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+    "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"],
+    "context_set": ""
+  },
+  {"tag": "remove_portfolio",
+    "patterns": ["rremove a stock to my portfolio","remove a stock","remove a stock to my List"],
+    "responses": ["removeing a stock"],
+    "context_set": ""
+  },
+  {"tag": "plot_chart",
+    "patterns": ["I want you to plot a stock price! ","Please plot a chart","Plot  chart for me!"],
+    "responses": ["plotting chart"],
+    "context_set": ""
+  }
+  ,
+  {"tag": "show_chart",
+    "patterns": ["Show me my investments", "Show me my portfolio", "Tell me about my portfolio "],
+    "responses": ["showing chart"],
+    "context_set": ""
+  }
+]
+}
